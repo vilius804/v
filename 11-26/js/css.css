@@ -1,0 +1,26 @@
+*{
+    padding: 1px;
+    margin: 0;
+
+}
+section {
+}
+table{
+    border-collapse: collapse;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+td{
+    border: solid;
+    border-color: black;
+
+    border-width: 1px;
+}
+th{
+    border: solid;
+    border-color: black;
+
+    border-width: 1px;
+}

@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0; 
+	box-sizing:border-box;
+	 /*Itraukia padddinga i blocko ploti */
+}
+main {
+	background-color: white;
+}	
+h1 {
+	text-align: center;
+	padding: 15px;
+}
+p {
+	text-align:center;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto; 
+  	grid-column-gap: 10px;
+  	grid-row-gap: 15px;
+  	justify-content: center;
+  	margin: 10px;
+}
+article	{
+	border-radius: 1px;
+	border-style: solid;
+  		
+}
+a {
+	color:white;
+	background-color: lightgreen;
+	text-align: center;
+	width: 120px
+}

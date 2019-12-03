@@ -1,0 +1,56 @@
+/*universalus selectorius*/
+*{
+	margin:0;
+}
+/*uždedam spalva skirtingiem elementam*/
+div{
+	background-color:red;
+}
+main{
+	background-color:aqua;
+}
+#super{
+	background-color: aquamarine;
+}
+article{
+	background-color: cyan;
+}
+.center{
+	text-align:center;
+	background-color: gray;
+}
+a[href= "http://tv.lt"]{
+	background-color: black;
+}
+a[href= "http://youtube.com"]{
+	background-color: brown;
+}
+/*atributo selektorius*/
+a[href$=".docx"]{
+
+}
+/*psiuodo klases selectorius*/
+a:visited{
+	color: yellow;
+}
+a:hover {
+  color: orange;
+}
+td:{
+	background-color: green;
+}
+tr:nth-child(2n+2){
+	background-color:yellow;
+}
+tr:hover{
+	background-color:white;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th,td {
+	text-align: left;
+	padding:8px;
+	border:1px solid #000;
+}
